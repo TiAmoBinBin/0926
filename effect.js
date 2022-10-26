@@ -41,8 +41,8 @@ $('document').ready(function () {
         audio1.play();
 	$('.picfly1').animate({left: -1.5*vw}, 15000);
 	$('.picfly2').delay(7000).animate({left: -1.1*vw}, 11000);
-	$('.picfly3').delay(10000).animate({left: -1.1*vw}, 12000);
-	$('.picfly4').delay(14000).animate({left: -1.3*vw}, 12000);
+	$('.picfly3').delay(11000).animate({left: -1.1*vw}, 12000);
+	$('.picfly4').delay(16000).animate({left: -1.3*vw}, 12000);
         $('#bulb_yellow').addClass('bulb-glow-yellow-after');
         $('#bulb_red').addClass('bulb-glow-red-after');
         $('#bulb_blue').addClass('bulb-glow-blue-after');
@@ -51,7 +51,7 @@ $('document').ready(function () {
         $('#bulb_orange').addClass('bulb-glow-orange-after');
         $('body').css('backgroud-color', '#FFF');
         $('body').addClass('peach-after');
-        $(this).fadeOut('slow').delay(22000).promise().done(function () {
+        $(this).fadeOut('slow').delay(23000).promise().done(function () {
             $('#play2').fadeIn('slow');
         });
     });
