@@ -168,6 +168,13 @@ $('document').ready(function () {
     $('#cake_fadein').click(function () {
         $('.pigcake').fadeIn('slow');
         $(this).fadeOut('slow').delay(3000).promise().done(function () {
+            $('#light_candle').fadeIn('slow');
+        });
+    });
+	
+    $('#light_candle').click(function () {
+        $('.fuego').fadeIn('slow');
+        $(this).fadeOut('slow').promise().done(function () {
             $('#wish_message').fadeIn('slow');
         });
     });
