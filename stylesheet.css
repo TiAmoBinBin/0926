@@ -979,12 +979,12 @@ audio {
 }
 
 .bannar {
-	max-width: 90%;
-	-webkit-transform:translate(0px,-700px);
-	-moz-transform:translate(0px,-700px);
-	-o-transform:translate(0px,-700px);
-	-ms-transform:translate(0px,-700px);
-	transform:translate(0px,-700px);
+	max-width: 100%;
+	-webkit-transform:translate(0px,800px);
+	-moz-transform:translate(0px,-800px);
+	-o-transform:translate(0px,-800px);
+	-ms-transform:translate(0px,-800px);
+	transform:translate(0px,-800px);
 
 }
 .bannar-come {
