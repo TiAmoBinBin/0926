@@ -980,11 +980,11 @@ audio {
 
 .bannar {
 	max-width: 90%;
-	-webkit-transform:translate(0px,-500px);
-	-moz-transform:translate(0px,-500px);
-	-o-transform:translate(0px,-500px);
-	-ms-transform:translate(0px,-500px);
-	transform:translate(0px,-500px);
+	-webkit-transform:translate(0px,-700px);
+	-moz-transform:translate(0px,-700px);
+	-o-transform:translate(0px,-700px);
+	-ms-transform:translate(0px,-700px);
+	transform:translate(0px,-700px);
 
 }
 .bannar-come {
@@ -1352,14 +1352,14 @@ audio {
 .pigcake{
 	position: fixed;
 	bottom:20%;
-	left:40%;
+	left:30%;
 	opacity: 0.5;
 	z-index: 9999;
 }
 .heart{
 	position: fixed;
 	bottom:30%;
-	left:40%;
+	left:30%;
 	opacity: 0.5;
 	z-index: 9999;
 }
