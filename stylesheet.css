@@ -1289,28 +1289,28 @@ audio {
         top:40%;
 	left:100%;
 	opacity: 0.5;
-	z-index: 9999;
+	z-index: 99;
 }
 .picfly2{
 	position: fixed;
 	top:30%;
 	left:100%;
 	opacity: 0.5;
-	z-index: 9999;
+	z-index: 99;
 }
 .picfly3{
 	position: fixed;
 	top:40%;
 	left:100%;
 	opacity: 0.5;
-	z-index: 9999;
+	z-index: 99;
 }
 .picfly4{
 	position: fixed;
 	top:30%;
 	left:100%;
 	opacity: 0.5;
-	z-index: 9999;
+	z-index: 99;
 }
 
 .picflyS{
@@ -1318,42 +1318,42 @@ audio {
 	top:30%;
 	left:100%;
 	opacity: 0.5;
-	z-index: 9999;
+	z-index: 99;
 }
 .picfly6{
 	position: fixed;
 	top:10%;
 	left:100%;
 	opacity: 0.5;
-	z-index: 9999;
+	z-index: 99;
 }
 .picfly7{
 	position: fixed;
 	top:30%;
 	left:100%;
 	opacity: 0.5;
-	z-index: 9999;
+	z-index: 99;
 }
 .picfly8{
 	position: fixed;
 	top:20%;
 	left:100%;
 	opacity: 0.5;
-	z-index: 9999;
+	z-index: 99;
 }
 .firework{
 	position: fixed;
 	bottom:20%;
-	left:10%;
+	left:1%;
 	opacity: 0.5;
-	z-index: 9998;
+	z-index: 999;
 }
 .firework2{
 	position: fixed;
 	bottom:20%;
 	left:1%;
 	opacity: 0.2;
-	z-index: 9998;
+	z-index: 99;
 }
 
 .pigcake{
@@ -1361,14 +1361,14 @@ audio {
 	bottom:30%;
 	left:30%;
 	opacity: 0.5;
-	z-index: 9998;
+	z-index: 99;
 }
 .heart{
 	position: fixed;
 	bottom:30%;
 	left:20%;
 	opacity: 0.5;
-	z-index: 9998;
+	z-index: 99;
 }
 
 .balloon-border{
