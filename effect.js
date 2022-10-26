@@ -41,9 +41,9 @@ $('document').ready(function () {
         audio1 = $('.song')[0];
         audio1.play();
 	$('.picfly1').animate({left: -vw}, 15000);
-	$('.picfly2').delay(5000).animate({left: -1.1vw}, 10000);
-	$('.picfly3').delay(9000).animate({left: -1.1vw}, 12000);
-	$('.picfly4').delay(13000).animate({left: -1.1vw}, 12000);
+	$('.picfly2').delay(4000).animate({left: -1.2vw}, 10000);
+	$('.picfly3').delay(9000).animate({left: -1.2vw}, 12000);
+	$('.picfly4').delay(13000).animate({left: -1.2vw}, 12000);
         $('#bulb_yellow').addClass('bulb-glow-yellow-after');
         $('#bulb_red').addClass('bulb-glow-red-after');
         $('#bulb_blue').addClass('bulb-glow-blue-after');
