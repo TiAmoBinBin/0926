@@ -1356,6 +1356,13 @@ audio {
 	opacity: 0.5;
 	z-index: 9999;
 }
+.heart{
+	position: fixed;
+	bottom:30%;
+	left:40%;
+	opacity: 0.5;
+	z-index: 9999;
+}
 
 .balloon-border{
 	position: fixed;
