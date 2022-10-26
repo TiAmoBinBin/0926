@@ -6,7 +6,6 @@ $('document').ready(function () {
     var vw;
     $('.pigcake').fadeOut('fast');
     $('.heart').fadeOut('fast');
-    $('.firework2').fadeOut('fast');
     $(window).resize(function () {
         vw = $(window).width() / 2;
         $('#b1,#b2,#b3,#b4,#b5,#b6,#b7').stop();
@@ -238,7 +237,7 @@ $('document').ready(function () {
         audio4 = $('.song4')[0];
         audio3.pause();
         audio4.play();
-	$('.firework2').fadeIn('slow');
+	$('.firework').fadeIn('slow');
         $(this).fadeOut('slow').delay(time).promise().done(function () {});
     }); //end play4
 
