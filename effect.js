@@ -64,7 +64,7 @@ $('document').ready(function () {
 	$('.picfly2').fadeOut('fast');
 	$('.picfly3').fadeOut('fast');
 	$('.picfly4').fadeOut('fast');
-	$('.picflyS').animate({left: -2*vw}, 15000);
+	$('.picflyS').animate({left: -2.5*vw}, 12000);
 	$('.picfly6').delay(5000).animate({left: -2*vw}, 15000);
 	$('.picfly7').delay(9000).animate({left: -2*vw}, 15000);
 	$('.picfly8').delay(13000).animate({left: -2*vw}, 15000);
