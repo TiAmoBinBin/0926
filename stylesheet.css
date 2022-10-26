@@ -979,12 +979,12 @@ audio {
 }
 
 .bannar {
-	max-width: 100%;
-	-webkit-transform:translate(0px,-800px);
-	-moz-transform:translate(0px,-800px);
-	-o-transform:translate(0px,-800px);
-	-ms-transform:translate(0px,-800px);
-	transform:translate(0px,-800px);
+	max-width: 90%;
+	-webkit-transform:translate(0px,-700px);
+	-moz-transform:translate(0px,-700px);
+	-o-transform:translate(0px,-700px);
+	-ms-transform:translate(0px,-700px);
+	transform:translate(0px,-700px);
 
 }
 .bannar-come {
@@ -1344,14 +1344,14 @@ audio {
 .firework{
 	position: fixed;
 	bottom:20%;
-	left:1%;
+	left:0%;
 	opacity: 0.5;
 	z-index: 999;
 }
 .firework2{
 	position: fixed;
 	bottom:20%;
-	left:1%;
+	left:0%;
 	opacity: 0.2;
 	z-index: 99;
 }
