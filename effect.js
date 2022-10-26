@@ -8,13 +8,6 @@ $('document').ready(function () {
     $(window).resize(function () {
         vw = $(window).width() / 2;
         $('#b1,#b2,#b3,#b4,#b5,#b6,#b7').stop();
-        // $('#b11').animate({top: 240, left: vw - 350}, 500);
-        // $('#b22').animate({top: 240, left: vw - 250}, 500);
-        // $('#b33').animate({top: 240, left: vw - 150}, 500);
-        // $('#b44').animate({top: 240, left: vw - 50}, 500);
-        // $('#b55').animate({top: 240, left: vw + 50}, 500);
-        // $('#b66').animate({top: 240, left: vw + 150}, 500);
-        // $('#b77').animate({top: 240, left: vw + 250}, 500);
           $('#b11').animate({top: 240, left: vw - vw/1}, 500);  
           $('#b22').animate({top: 240, left: vw - vw/1.5}, 500);
           $('#b33').animate({top: 240, left: vw - vw/3}, 500);  
@@ -70,6 +63,9 @@ $('document').ready(function () {
 	$('.picfly3').fadeOut('fast');
 	$('.picfly4').fadeOut('fast');
 	$('.picflyS').animate({left: -2*vw}, 15000);
+	$('.picfly6').delay(5000).animate({left: -2*vw}, 15000);
+	$('.picfly7').delay(9000)。animate({left: -2*vw}, 15000);
+	$('.picfly8').delay(13000).animate({left: -2*vw}, 15000);
         $(this).fadeOut('slow').delay(time).promise().done(function () {
             $('#play3').fadeIn('slow');
         });
@@ -79,7 +75,10 @@ $('document').ready(function () {
         audio3 = $('.song2')[0];
         audio2.pause();
         audio3.play();
-	$('.picflyS').fadeOut('slow');
+	$('.picflyS').fadeOut('fast');
+	$('.picfly6').fadeOut('fast');
+	$('.picfly7').fadeOut('fast');
+	$('.picfly8').fadeOut('fast');
         $(this).fadeOut('slow').delay(time).promise().done(function () {
             $('#bannar_coming').fadeIn('slow');
         });
@@ -217,7 +216,7 @@ $('document').ready(function () {
                 $("p:nth-child(" + i + ")").fadeIn('slow').delay(1500);
                 if (i == 31) {
                     $("p:nth-child(31)").fadeOut('slow').promise().done(function () {
-                        $('.pigcake').fadeIn('fast');
+                        $('.heart').fadeIn('fast');
    			$('#play4').fadeIn('slow');			
                     });
                 }
