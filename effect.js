@@ -64,9 +64,9 @@ $('document').ready(function () {
 	$('.picfly3').fadeOut('fast');
 	$('.picfly4').fadeOut('fast');
 	$('.picflyS').animate({left: -2.2*vw}, 12000);
-	$('.picfly6').delay(6000).animate({left: -2*vw}, 15000);
-	$('.picfly7').delay(13000).animate({left: -2*vw}, 15000);
-	$('.picfly8').delay(20000).animate({left: -2*vw}, 15000);
+	$('.picfly6').delay(6000).animate({left: -1.4*vw}, 15000);
+	$('.picfly7').delay(13000).animate({left: -1.4*vw}, 15000);
+	$('.picfly8').delay(20000).animate({left: -1.4*vw}, 15000);
         $(this).fadeOut('slow').delay(30000).promise().done(function () {
             $('#play3').fadeIn('slow');
         });
