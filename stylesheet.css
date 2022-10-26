@@ -1350,9 +1350,9 @@ audio {
 }
 .firework2{
 	position: fixed;
-	bottom:10%;
-	left:5%;
-	opacity: 0.3;
+	bottom:20%;
+	left:0%;
+	opacity: 0.2;
 	z-index: 9999;
 }
 
