@@ -1286,7 +1286,7 @@ audio {
 
 .picfly1{
 	position: fixed;
-        top:60%;
+        top:50%;
 	left:100%;
 	opacity: 0.5;
 	z-index: 9999;
@@ -1300,7 +1300,7 @@ audio {
 }
 .picfly3{
 	position: fixed;
-	top:60%;
+	top:50%;
 	left:100%;
 	opacity: 0.5;
 	z-index: 9999;
