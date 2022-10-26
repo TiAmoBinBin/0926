@@ -980,11 +980,11 @@ audio {
 
 .bannar {
 	max-width: 100%;
-	-webkit-transform:translate(0px,-300px);
-	-moz-transform:translate(0px,-300px);
-	-o-transform:translate(0px,-300px);
-	-ms-transform:translate(0px,-300px);
-	transform:translate(0px,-300px);
+	-webkit-transform:translate(0px,-200px);
+	-moz-transform:translate(0px,-200px);
+	-o-transform:translate(0px,-200px);
+	-ms-transform:translate(0px,-200px);
+	transform:translate(0px,-200px);
 
 }
 .bannar-come {
@@ -1320,6 +1320,27 @@ audio {
 	opacity: 0.5;
 	z-index: 9999;
 }
+.picfly6{
+	position: fixed;
+	top:10%;
+	left:100%;
+	opacity: 0.5;
+	z-index: 9999;
+}
+.picfly7{
+	position: fixed;
+	top:10%;
+	left:100%;
+	opacity: 0.5;
+	z-index: 9999;
+}
+.picfly8{
+	position: fixed;
+	top:10%;
+	left:100%;
+	opacity: 0.5;
+	z-index: 9999;
+}
 .firework{
 	position: fixed;
 	bottom:10%;
@@ -1330,7 +1351,7 @@ audio {
 
 .pigcake{
 	position: fixed;
-	bottom:40%;
+	bottom:20%;
 	left:40%;
 	opacity: 0.5;
 	z-index: 9999;
