@@ -1315,7 +1315,7 @@ audio {
 
 .picflyS{
 	position: fixed;
-	top:10%;
+	top:20%;
 	left:100%;
 	opacity: 0.5;
 	z-index: 9999;
@@ -1348,6 +1348,13 @@ audio {
 	opacity: 0.5;
 	z-index: 9999;
 }
+.firework2{
+	position: fixed;
+	bottom:10%;
+	left:10%;
+	opacity: 0.3;
+	z-index: 9999;
+}
 
 .pigcake{
 	position: fixed;
@@ -1366,7 +1373,7 @@ audio {
 
 .balloon-border{
 	position: fixed;
-	top:100%;
+	top:90%;
 	opacity: 0.5;
 	z-index: 9999;
 }
