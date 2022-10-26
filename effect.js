@@ -64,10 +64,10 @@ $('document').ready(function () {
 	$('.picfly3').fadeOut('fast');
 	$('.picfly4').fadeOut('fast');
 	$('.picflyS').animate({left: -2.2*vw}, 12000);
-	$('.picfly6').delay(5000).animate({left: -2*vw}, 14000);
-	$('.picfly7').delay(9000).animate({left: -2*vw}, 14000);
-	$('.picfly8').delay(13000).animate({left: -2*vw}, 14000);
-        $(this).fadeOut('slow').delay(24000).promise().done(function () {
+	$('.picfly6').delay(6000).animate({left: -2*vw}, 11000);
+	$('.picfly7').delay(10000).animate({left: -2*vw}, 11000);
+	$('.picfly8').delay(14000).animate({left: -2*vw}, 11000);
+        $(this).fadeOut('slow').delay(25000).promise().done(function () {
             $('#play3').fadeIn('slow');
         });
     });
