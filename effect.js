@@ -1,6 +1,7 @@
 $(window).load(function () {
     $('.loading').fadeOut('fast');
     $('.container').fadeIn('fast');
+    $('.heart').fadeOut('fast');
 });
 $('document').ready(function () {
     var vw;
