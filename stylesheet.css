@@ -1358,14 +1358,14 @@ audio {
 
 .pigcake{
 	position: fixed;
-	bottom:25%;
+	bottom:30%;
 	left:30%;
 	opacity: 0.5;
 	z-index: 9999;
 }
 .heart{
 	position: fixed;
-	bottom:20%;
+	bottom:30%;
 	left:20%;
 	opacity: 0.5;
 	z-index: 9999;
