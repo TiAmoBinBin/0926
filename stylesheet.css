@@ -1365,8 +1365,8 @@ audio {
 }
 .heart{
 	position: fixed;
-	bottom:15%;
-	left:28%;
+	bottom:20%;
+	left:23%;
 	opacity: 0.5;
 	z-index: 99;
 }
