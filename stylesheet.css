@@ -1343,17 +1343,17 @@ audio {
 }
 .firework{
 	position: fixed;
-	bottom:10%;
+	bottom:15%;
 	left:10%;
 	opacity: 0.5;
-	z-index: 9999;
+	z-index: 9998;
 }
 .firework2{
 	position: fixed;
 	bottom:20%;
 	left:1%;
 	opacity: 0.2;
-	z-index: 9999;
+	z-index: 9998;
 }
 
 .pigcake{
@@ -1361,14 +1361,14 @@ audio {
 	bottom:30%;
 	left:30%;
 	opacity: 0.5;
-	z-index: 9999;
+	z-index: 9998;
 }
 .heart{
 	position: fixed;
 	bottom:30%;
 	left:20%;
 	opacity: 0.5;
-	z-index: 9999;
+	z-index: 9998;
 }
 
 .balloon-border{
