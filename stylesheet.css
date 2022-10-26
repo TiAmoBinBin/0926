@@ -980,11 +980,11 @@ audio {
 
 .bannar {
 	max-width: 90%;
-	-webkit-transform:translate(0px,-300px);
-	-moz-transform:translate(0px,-300px);
-	-o-transform:translate(0px,-300px);
-	-ms-transform:translate(0px,-300px);
-	transform:translate(0px,-300px);
+	-webkit-transform:translate(0px,-500px);
+	-moz-transform:translate(0px,-500px);
+	-o-transform:translate(0px,-500px);
+	-ms-transform:translate(0px,-500px);
+	transform:translate(0px,-500px);
 
 }
 .bannar-come {
@@ -1383,7 +1383,7 @@ audio {
 	margin-top: 50px;
 }
 .message {
-	margin-top: 260px;
+	margin-top: 200px;
 	display: none;
 }
 .message p {
