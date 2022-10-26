@@ -67,7 +67,7 @@ $('document').ready(function () {
 	$('.picfly6').delay(5000).animate({left: -2*vw}, 15000);
 	$('.picfly7').delay(9000).animate({left: -2*vw}, 15000);
 	$('.picfly8').delay(13000).animate({left: -2*vw}, 15000);
-        $(this).fadeOut('slow').delay(18000).promise().done(function () {
+        $(this).fadeOut('slow').delay(20000).promise().done(function () {
             $('#play3').fadeIn('slow');
         });
     });
