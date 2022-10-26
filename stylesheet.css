@@ -1315,7 +1315,7 @@ audio {
 
 .picflyS{
 	position: fixed;
-	top:10%;
+	top:30%;
 	left:100%;
 	opacity: 0.5;
 	z-index: 9999;
@@ -1329,14 +1329,14 @@ audio {
 }
 .picfly7{
 	position: fixed;
-	top:10%;
+	top:30%;
 	left:100%;
 	opacity: 0.5;
 	z-index: 9999;
 }
 .picfly8{
 	position: fixed;
-	top:10%;
+	top:20%;
 	left:100%;
 	opacity: 0.5;
 	z-index: 9999;
@@ -1366,7 +1366,7 @@ audio {
 .heart{
 	position: fixed;
 	bottom:20%;
-	left:30%;
+	left:20%;
 	opacity: 0.5;
 	z-index: 9999;
 }
